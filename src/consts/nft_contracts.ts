@@ -1,5 +1,5 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, ethereum } from "./chains";
+import { avalancheFuji, polygonMainnet, ethereum } from "./chains";
 import { base, baseSepolia } from "thirdweb/chains";
 
 export type NftContract = {
@@ -51,18 +51,18 @@ export const NFT_CONTRACTS: NftContract[] = [
     type: "ERC721",
   },
   {
-    address: "0x0ACaCa3d3F64bb6e6D3564BBc891c58Bd4A4c83c",
-    chain: avalancheFuji,
-    title: "GoroBot",
-    description: "Buy this Bot Dmerch to unlock AI ATL5D services.",
+    address: "0xFfad5A63E1Ed90DaC920A11340f9DfBc0ed3d3ee",
+    chain: base,
+    title: "Welcome to ATL5D",
+    description: "Buy this Welcome to ATL5D Dmerch",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeiay3ffxy3os56bvnu5cmq7gids4v6n4hf5nvvcb3gy2dzavi3ltnu/profile.jpg",
-    slug: "gorobot",
-    type: "ERC721",
+      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/bafybeid5v6etpjup37xxann3xhkqaxkoiebku5tqt5xbegnfqvdmvpykji/0.jpg",
+    slug: "atl5d",
+    type: "ERC1155",
   },
   {
     address: "0x78C9d5e3479aD27c4869aF9E1922C6fFb5829Ac8",
-    chain: ethereum,
+    chain: polygonMainnet,
     title: "M.L.K DRIVE LNE",
     description: "Buy this M.L.K DRIVE LNE deed mapped to the Atlanta MLK Drive.",
     thumbnailUrl:
