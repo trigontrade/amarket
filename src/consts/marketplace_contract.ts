@@ -1,5 +1,5 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, polygonAmoy, sepolia } from "./chains";
+import { avalancheFuji, base, polygonAmoy, sepolia, ethereum } from "./chains";
 
 type MarketplaceContract = {
   address: string;
@@ -22,5 +22,21 @@ export const MARKETPLACE_CONTRACTS: MarketplaceContract[] = [
   {
     address: "0xe0eFD6fb388405b67b3E9FaFc02649c70E749f03",
     chain: sepolia,
+  },
+  {
+    address: "0xcc85af4E1EFB3F8A378D20016020124917206E4b",
+    chain: base,
+  },
+  {
+    address: "0xcc85af4E1EFB3F8A378D20016020124917206E4b",
+    chain: sepolia,
+  },
+  {
+    address: "0xaA4F87a8A991EbAeCA3a2d22eF16898D61A2371a",
+    chain: ethereum,
+  },
+  {
+    address: "0xcc85af4E1EFB3F8A378D20016020124917206E4b",
+    chain: ethereum,
   },
 ];

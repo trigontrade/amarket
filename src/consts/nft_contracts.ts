@@ -1,5 +1,5 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, polygonAmoy } from "./chains";
+import { avalancheFuji, ethereum } from "./chains";
 import { base, baseSepolia } from "thirdweb/chains";
 
 export type NftContract = {
@@ -61,12 +61,12 @@ export const NFT_CONTRACTS: NftContract[] = [
     type: "ERC721",
   },
   {
-    address: "0x4b6CDEFF5885A57678261bb95250aC43aD490752",
-    chain: polygonAmoy,
-    title: "PPV",
-    description: "Buy this PPV Dmerch to unlock ATL5D Discord PPV events.",
+    address: "0x78C9d5e3479aD27c4869aF9E1922C6fFb5829Ac8",
+    chain: ethereum,
+    title: "M.L.K DRIVE LNE",
+    description: "Buy this M.L.K DRIVE LNE deed mapped to the Atlanta MLK Drive.",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeidec7x6bptqmrxgptaedd7wfwxbsccqfogzwfsd4a7duxn4sdmnxy/0.png",
-    type: "ERC721",
+      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/bafybeigj2rewdhrxpkgchrdrukprnvmg2hpqzn4s4nowovvm6fvpn4wwli/MLK%201080.jpg",
+    type: "ERC1155",
   },
 ];
