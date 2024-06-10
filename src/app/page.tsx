@@ -89,7 +89,7 @@ const _latestUpdates: Array<{ title: string; bullet_points: React.ReactNode[] }>
       <>
         Create a FREE ATL5D Coinbase wallet, aka{" "}
         <Link href="https://wallo.atl5d.com" isExternal>
-          Wallo
+          <b>Wallo</b>
         </Link>
         , for your $ATL money with no monthly or annual fees.
       </>,
@@ -100,10 +100,10 @@ const _latestUpdates: Array<{ title: string; bullet_points: React.ReactNode[] }>
     bullet_points: [
       <>
         We made is simple{" "}
-        <Link href="https://wallo.atl5d.com" isExternal>
+        <Link href="https://discord.com/servers/atl5d-1244450286337003520" isExternal>
           <b>Subscribe</b>
         </Link>
-        to ATL5D Discord to tip in $ATL money. Pay local Atlanta ATL5Dneurs to promote your Dmerch.
+         to ATL5D Discord to tip in $ATL money. Pay local Atlanta ATL5Dneurs to promote your Dmerch.
       </>,
     ],
   },
