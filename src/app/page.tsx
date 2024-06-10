@@ -23,7 +23,7 @@ export default function Home() {
           {/* Delete this <Card /> in your own app */}
           <Card bg="black" border="1px" maxW="90vw" mx="auto">
             <CardHeader>
-              <Heading size="md">Marketplace Template v2</Heading>
+              <Heading size="md">🅰️TLanta’s D-Commerce Market</Heading>
             </CardHeader>
 
             <CardBody>
@@ -44,7 +44,7 @@ export default function Home() {
             </CardBody>
           </Card>
           <Heading ml="20px" mt="40px">
-            Trending collections
+          ❤️‍🔥 Trending collections
           </Heading>
           <Flex
             direction="row"
@@ -77,37 +77,33 @@ export default function Home() {
 // Delete this in your own app
 const _latestUpdates: Array<{ title: string; bullet_points: string[] }> = [
   {
-    title: "Latest software",
+    title: "$0 Middleman Fees",
     bullet_points: [
-      "Shipped with the latest thirdweb SDK (v5) and Next.js 14 (App router)",
+      "ATL5D ended web2 slavery in Atlanta in 2024.",
     ],
   },
   {
-    title: "Multi-chain",
+    title: "ATL5D Wallet aka Wallo",
     bullet_points: [
-      "Seamlessly trade and browse items on multiple chains",
-      "You'd have to deploy a thirdweb Marketplace V3 contract on each of the chains you want to support",
+      "Create a FREE ATL5D Coinbase Wallo with $0 monthly/annual fees.",
     ],
   },
   {
-    title: "Multiple collections supported",
+    title: "Atlanta Loyalty Rewards",
     bullet_points: [
-      "The new template now supports multiple collections, you can view your owned NFTs and your listings",
+      "Subscribe to ATL5D Discord to tip in $ATL money using your ATL5D Wallo.",
     ],
   },
   {
-    title: "Upcoming features",
+    title: "ATLverse",
     bullet_points: [
-      "Select different currencies (ERC20) when creating listings",
-      "UI for English Auctions",
+      "Schedule a D-commerce drop date in ATL5D Discord and host a live after party in the ATLverse.",
     ],
   },
   {
-    title: "Contribute",
+    title: "ATL5D Portal",
     bullet_points: [
-      "We welcome all contributions from the community.",
-      "Found a bug or have some suggestions? Create a GitHub issue!",
-      "Repo: https://github.com/thirdweb-example/marketplace-template",
+      "Sell D-commerce out of your branded Discord and ATLverse channels with a link to your market page.",
     ],
   },
 ];

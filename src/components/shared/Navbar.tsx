@@ -32,14 +32,14 @@ export function Navbar() {
         <Box my="auto">
           <Heading
             as={Link}
-            href="/"
+            href="https://market.atl5d.com"
             _hover={{ textDecoration: "none" }}
             bgGradient="linear(to-l, #7928CA, #FF0080)"
             bgClip="text"
             fontWeight="extrabold"
           >
             {/* Replace this with your own branding */}
-            THIRDMART
+            MARKET
           </Heading>
         </Box>
         <Box>
