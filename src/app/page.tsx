@@ -14,6 +14,7 @@ import {
   StackDivider,
   Text,
 } from "@chakra-ui/react";
+import React from "react";
 
 export default function Home() {
   return (
@@ -33,8 +34,8 @@ export default function Home() {
                     <Heading size="xs" textTransform="uppercase">
                       {item.title}
                     </Heading>
-                    {item.bullet_points.map((pt) => (
-                      <Text pt="2" fontSize="sm" key={pt}>
+                    {item.bullet_points.map((pt, index) => (
+                      <Text pt="2" fontSize="sm" key={index}>
                         {pt}
                       </Text>
                     ))}
@@ -44,7 +45,7 @@ export default function Home() {
             </CardBody>
           </Card>
           <Heading ml="20px" mt="40px">
-          ❤️‍🔥 Trending collections
+            ❤️‍🔥 Trending collections
           </Heading>
           <Flex
             direction="row"
@@ -75,35 +76,47 @@ export default function Home() {
 }
 
 // Delete this in your own app
-const _latestUpdates: Array<{ title: string; bullet_points: string[] }> = [
+const _latestUpdates: Array<{ title: string; bullet_points: React.ReactNode[] }> = [
   {
     title: "$0 Middleman Fees",
     bullet_points: [
-      "ATL5D ended web2 slavery in Atlanta in 2024.",
+      <>ATL5D ended web2 slavery in Atlanta in 2024 by removing the middleman.</>,
     ],
   },
   {
-    title: "ATL5D Wallet aka Wallo",
+    title: " IN $ATL WE TRUST",
     bullet_points: [
-      "Create a FREE ATL5D Coinbase Wallo with $0 monthly/annual fees.",
+      <>
+        Create a FREE ATL5D Coinbase wallet, aka{" "}
+        <Link href="https://wallo.atl5d.com" isExternal>
+          Wallo
+        </Link>
+        , for your $ATL money with no monthly or annual fees.
+      </>,
     ],
   },
   {
     title: "Atlanta Loyalty Rewards",
     bullet_points: [
-      "Subscribe to ATL5D Discord to tip in $ATL money using your ATL5D Wallo.",
+      <>
+        We made is simple{" "}
+        <Link href="https://wallo.atl5d.com" isExternal>
+          <b>Subscribe</b>
+        </Link>
+        to ATL5D Discord to tip in $ATL money. Pay local Atlanta ATL5Dneurs to promote your Dmerch.
+      </>,
     ],
   },
   {
     title: "ATLverse",
     bullet_points: [
-      "Schedule a D-commerce drop date in ATL5D Discord and host a live after party in the ATLverse.",
+      <>Schedule a D-commerce drop date as an event in ATL5D Discord and host a live after party in the ATLverse.</>,
     ],
   },
   {
     title: "ATL5D Portal",
     bullet_points: [
-      "Sell D-commerce out of your branded Discord and ATLverse channels with a link to your market page.",
+      <>Sell D-commerce out of your branded Discord and ATLverse channels with a link to your market page.</>,
     ],
   },
 ];
