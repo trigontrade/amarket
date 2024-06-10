@@ -1,5 +1,6 @@
 import type { Chain } from "thirdweb";
-import { avalancheFuji, polygonMainnet, ethereum } from "./chains";
+import { avalancheFuji, ethereum } from "./chains";
+import { polygon } from "thirdweb/chains"
 import { base, baseSepolia } from "thirdweb/chains";
 
 export type NftContract = {
@@ -41,13 +42,13 @@ export const NFT_CONTRACTS: NftContract[] = [
   },
 
   {
-    address: "0x0896Db00D8987Fba2152aa7c14c4255eBC7354cE",
-    chain: avalancheFuji,
-    title: "Happiness Engineers",
-    description: "Buy this Dmerch to unlock a joke that will turn your frown upside down.",
+    address: "0x540713d47c820484cF5eAEE19B3c6131c99ec161",
+    chain: polygon,
+    title: "Hair Estate",
+    description: "Buy this Dmerch Hair Estate to unlock @haircolorvet hair stylist services.",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/Qmct2vS78Uwug3zVtqQognskPPRmd4wRQiaDAQWt1kRJws/0.png",
-    slug: "unnamed-collection",
+      "https://i.imgur.com/ZpzmdiA.jpeg",
+    slug: "hair-estate",
     type: "ERC721",
   },
   {
@@ -56,17 +57,17 @@ export const NFT_CONTRACTS: NftContract[] = [
     title: "Welcome to ATL5D",
     description: "Buy this Welcome to ATL5D Dmerch",
     thumbnailUrl:
-      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/bafybeid5v6etpjup37xxann3xhkqaxkoiebku5tqt5xbegnfqvdmvpykji/0.jpg",
+      "https://i.imgur.com/bclbtZW.jpeg",
     slug: "atl5d",
     type: "ERC1155",
   },
   {
     address: "0x78C9d5e3479aD27c4869aF9E1922C6fFb5829Ac8",
-    chain: polygonMainnet,
+    chain: polygon,
     title: "M.L.K DRIVE LNE",
     description: "Buy this M.L.K DRIVE LNE deed mapped to the Atlanta MLK Drive.",
     thumbnailUrl:
-      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/bafybeigj2rewdhrxpkgchrdrukprnvmg2hpqzn4s4nowovvm6fvpn4wwli/MLK%201080.jpg",
+      "https://i.imgur.com/UJkxIY3.jpeg",
     type: "ERC1155",
   },
 ];
