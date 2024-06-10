@@ -1,7 +1,6 @@
 import type { Chain } from "thirdweb";
 import { avalancheFuji, polygonAmoy } from "./chains";
 import { base, baseSepolia } from "thirdweb/chains";
-import { baseGoerli, baseMainnet } from "thirdweb/chains";
 
 export type NftContract = {
   address: string;
@@ -31,7 +30,7 @@ export const NFT_CONTRACTS: NftContract[] = [
   },
   {
     address: "0xFfad5A63E1Ed90DaC920A11340f9DfBc0ed3d3ee",
-    chain: baseMainnet,
+    chain: baseSepolia,
     title: "Welcome to ATL5D",
     description: "You can flip this Welcome to ATL5D sign in the ATL5D Discord.",
     thumbnailUrl:
