@@ -24,7 +24,7 @@ export default function Home() {
           {/* Delete this <Card /> in your own app */}
           <Card bg="black" border="1px" maxW="90vw" mx="auto">
             <CardHeader>
-              <Heading size="md">🅰️TLanta’s D-Commerce Market</Heading>
+              <Heading size="md">🅰️TLanta D-Commerce Market</Heading>
             </CardHeader>
 
             <CardBody>
@@ -102,15 +102,14 @@ const _latestUpdates: Array<{ title: string; bullet_points: React.ReactNode[] }>
         {" "}
         <Link href="https://discord.com/servers/atl5d-1244450286337003520" isExternal>
           <b>Subscribe</b>
-        </Link>
-         to ATL5D Discord to claim your monthly $ATL bag airdrop to tip your Atlanta tribe in $ATL money.
+        </Link> to ATL5D Discord to claim your monthly $ATL bag airdrop to TIP your Atlanta tribe in $ATL money.
       </>,
     ],
   },
   {
-    title: "ATLverse",
+    title: "Royalties",
     bullet_points: [
-      <>Schedule a D-commerce drop date as an event in ATL5D Discord and host a live after party in the ATLverse.</>,
+      <>Earn a lifetime of royalties on secondary Dmerch sales, Dmerch works for you.</>,
     ],
   },
   {
