@@ -91,7 +91,7 @@ const _latestUpdates: Array<{ title: string; bullet_points: React.ReactNode[] }>
         <Link href="https://wallo.atl5d.com" isExternal>
           <b>Wallo</b>
         </Link>
-        , for your $ATL money with no monthly or annual fees.
+        , for your Dmerch and $ATL money with $0 annual fees.
       </>,
     ],
   },
@@ -99,11 +99,11 @@ const _latestUpdates: Array<{ title: string; bullet_points: React.ReactNode[] }>
     title: "Atlanta Loyalty Rewards",
     bullet_points: [
       <>
-        We made is simple{" "}
+        {" "}
         <Link href="https://discord.com/servers/atl5d-1244450286337003520" isExternal>
           <b>Subscribe</b>
         </Link>
-         to ATL5D Discord to tip in $ATL money. Pay local Atlanta ATL5Dneurs to promote your Dmerch.
+         to ATL5D Discord to claim your monthly $ATL bag airdrop to tip your Atlanta tribe in $ATL money.
       </>,
     ],
   },
