@@ -1,5 +1,6 @@
 import type { Chain } from "thirdweb";
 import { avalancheFuji, polygonAmoy } from "./chains";
+import { base, baseSepolia } from "thirdweb/chains";
 
 export type NftContract = {
   address: string;
@@ -28,20 +29,21 @@ export const NFT_CONTRACTS: NftContract[] = [
     type: "ERC721",
   },
   {
-    address: "0xC5A2c72c581eA4A17e17bEeF38a9597132830401",
-    chain: avalancheFuji,
-    title: "Ugly Waifu",
+    address: "0xFfad5A63E1Ed90DaC920A11340f9DfBc0ed3d3ee",
+    chain: baseSepolia,
+    title: "Welcome to ATL5D",
+    description: "You can flip this Welcome to ATL5D sign in the ATL5D Discord.",
     thumbnailUrl:
-      "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/bafybeidaadqapi7twzd7pjp24tu4ngsr3teubrhop7hg3jk3oj6lqysfgm/OS-LOGO.png",
-    slug: "ugly-waifu",
+      "https://d391b93f5f62d9c15f67142e43841acc.ipfscdn.io/ipfs/bafybeid5v6etpjup37xxann3xhkqaxkoiebku5tqt5xbegnfqvdmvpykji/0.jpg",
+    slug: "atl5d",
     type: "ERC721",
   },
 
   {
     address: "0x0896Db00D8987Fba2152aa7c14c4255eBC7354cE",
     chain: avalancheFuji,
-    title: "Unnamed Collection",
-    description: "",
+    title: "Happiness Engineers",
+    description: "Buy this Dmerch to unlock a joke that will turn your frown upside down.",
     thumbnailUrl:
       "https://258c828e8cc853bf5e0efd001055fb39.ipfscdn.io/ipfs/Qmct2vS78Uwug3zVtqQognskPPRmd4wRQiaDAQWt1kRJws/0.png",
     slug: "unnamed-collection",
